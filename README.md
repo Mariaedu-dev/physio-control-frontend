@@ -45,7 +45,7 @@ physio-control-frontend/
 
 ## 🌐 Deploy
 
-🚀 Aplicação disponível em:  
+🔗 **Acesse o projeto:**
 "https://physio-front.netlify.app/"
 
 ---
