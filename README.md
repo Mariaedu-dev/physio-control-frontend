@@ -25,7 +25,7 @@ physio-control-frontend/
 ├── manifest.json       # Configurações do PWA
 ├── README.md           # Documentação do projeto
 ├── style.css       # Estilização da aplicação
-├── app.js       # Lógica da aplicação (API de cachorros)
+├── app.js       # Lógica da aplicação (API)
 ├── icons/
 │   ├── icon-192.png    # Ícone PWA (192x192)
 │   └── icon-512.png    # Ícone PWA (512x512)
