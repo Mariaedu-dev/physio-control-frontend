@@ -1,0 +1,21 @@
+{
+  "name": "FisioControl - Gestão Clínica",
+  "short_name": "FisioApp",
+  "description": "Sistema de evolução clínica para fisioterapia veterinária.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f8f9fa",
+  "theme_color": "#2c7da0",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FisioApp | Gestão de Consultas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="icons/icon-192x192.png">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+
+<meta name="theme-color" content="#2c7da0">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>🩺 Fisio<span>Control</span></h1>
+            <p>Sistema de Evolução Clínica</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="form-card">
+            <h2 id="form-title">Novo Registro de Exame</h2>
+            <form id="form-consulta">
+                <input type="hidden" id="consulta-id">
+                
+                <div class="input-group">
+                    <label for="paciente">Paciente / Tutor</label>
+                    <input type="text" id="paciente" placeholder="Ex: Thor / João Silva" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="procedimento">Tipo de Procedimento</label>
+                    <select id="procedimento" required>
+                        <option value="">Selecione...</option>
+                        <option value="Acupuntura">Acupuntura</option>
+                        <option value="Hidroterapia">Hidroterapia</option>
+                        <option value="Laserterapia">Laserterapia</option>
+                        <option value="Cinesioterapia">Cinesioterapia</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="data">Data da Sessão</label>
+                    <input type="datetime-local" id="data" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="evolucao">Evolução Clínica / Conduta</label>
+                    <textarea id="evolucao" rows="4" placeholder="Descreva o procedimento e a reação do paciente..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-main">Salvar Registro</button>
+            </form>
+        </section>
+
+        <section class="list-section">
+            <h2>Histórico de Atendimentos</h2>
+            <div id="lista-consultas" class="grid-consultas">
+                <p class="loading">Carregando registros...</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
