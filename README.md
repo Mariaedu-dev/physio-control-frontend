@@ -53,7 +53,6 @@ https://physio-front.netlify.app/
 
 O frontend consome a API hospedada no Render:
 
-## 🔗 API Utilizada
 - **Nome:** physio-control-backend 
 - **Link:** https://physio-control-backend.onrender.com/api/consultas
 
