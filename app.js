@@ -1,5 +1,6 @@
 // const API_URL = 'http://localhost:2005/api/consultas';
-const API_URL = 'https://physio-control-backend.onrender.com'
+// const API_URL = 'https://physio-control-backend.onrender.com'
+const API_URL = 'https://physio-control-backend.onrender.com/api/consultas'
 const form = document.getElementById('form-consulta');
 const listaConsultas = document.getElementById('lista-consultas');
 const consultaIdInput = document.getElementById('consulta-id');
