@@ -5,14 +5,13 @@ O sistema permite o cadastramento e gerenciamento de procedimentos de fisioterap
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-- HTML5
+- HTML5  
 - CSS3
-- JavaScript (Vanilla)
-- Service Workers (PWA)
-- Manifest.json
-
+- JavaScript (Vanilla)  
+- PWA (Progressive Web App)
+- API  (physio-control-backend)
 ---
 
 ## 📂 Estrutura do Projeto
