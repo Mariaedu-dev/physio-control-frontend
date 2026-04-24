@@ -52,9 +52,10 @@ physio-control-frontend/
 
 O frontend consome a API hospedada no Render:
 
-🔗 API Utilizada
-Nome: physio-control-backend
-Link: https://physio-control-backend.onrender.com/api/consultas
+## 🔗 API Utilizada
+- **Nome:** physio-control-backend 
+- **Link:** https://physio-control-backend.onrender.com/api/consultas
+
 ---
 
 ## 📌 Diferenciais do Projeto
