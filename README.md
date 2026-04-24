@@ -52,7 +52,7 @@ physio-control-frontend/
 
 O frontend consome a API hospedada no Render:
 
-👉 "[(https://physio-control-backend.onrender.com/api/consultas)]"
+👉 "[https://physio-control-backend.onrender.com/api/consultas]"
 ---
 
 ## 👩‍💻 Autora
