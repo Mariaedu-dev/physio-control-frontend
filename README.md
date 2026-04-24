@@ -33,6 +33,7 @@ physio-control-frontend/
 
 ```
 ---
+---
 
 ## ⚙️ Funcionalidades
 
