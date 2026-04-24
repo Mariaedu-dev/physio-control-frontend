@@ -30,9 +30,6 @@ physio-control-frontend/
 │   ├── icon-192.png    # Ícone PWA (192x192)
 │   └── icon-512.png    # Ícone PWA (512x512)
 ```
-
-```
----
 ---
 
 ## ⚙️ Funcionalidades
