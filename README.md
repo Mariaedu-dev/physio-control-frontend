@@ -52,9 +52,18 @@ physio-control-frontend/
 
 O frontend consome a API hospedada no Render:
 
-👉 "[https://physio-control-backend.onrender.com/api/consultas]"
+🔗 API Utilizada
+Nome: physio-control-backend
+Link: https://physio-control-backend.onrender.com/api/consultas
 ---
 
+## 📌 Diferenciais do Projeto
+- Aplicação mobile-first
+- PWA com suporte offline
+- Integração fullstack
+- Deploy em produção (Netlify)
+
+---
 ## 👩‍💻 Autora
 
 **Maria Eduarda**  
