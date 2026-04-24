@@ -34,7 +34,7 @@ physio-control-frontend/
 
 ## ⚙️ Funcionalidades
 
-- Cadastro de procedimentos de Fisioterapêuticos
+- Cadastro de procedimentos Fisioterapêuticos
 - Listagem de procedimentos
 - Atualização (CRUD)
 - Exclusão de registros
